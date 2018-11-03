@@ -1,0 +1,2 @@
+Sitemap: http://charlesmaxwellyoung.github.io/sitemap.xml
+Sitemap: http://charlesmaxwellyoung.github.io/baidusitemap.xml
