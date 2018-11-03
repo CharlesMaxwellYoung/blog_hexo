@@ -552,15 +552,16 @@ print可以传入多个参数，那么相对应的首尾输出。(可以理解ch
     
     
     <article class="index-post">
-        <a class="abstract-title" href="/npm-install-error/">
+        <a class="abstract-title" href="/git-error-resolve/">
             
-                <span>npm 安装依赖失败</span>
+                <span>push to origin/master was rejected</span>
         </a>
         <div class="abstract-content">
-            前言
-有时候，我们通过npm install进行项目初始化，会由于“天朝墙”的原因，可能会导致下载速度慢，无法下载等等问题出现。好在现在有很多国内镜像，也有一个帮助我们随意切换 npm 镜像的工具：nrm。
-
-123456789101112npm install -g nrmnrm ls* npm ---- https://registry.npmjs.org/  cnpm --- http://r.cnpmjs.org/  taobao - https://registry.npm.taobao.org/  nj ----- https://registry.nodejitsu.com...
+            push to origin/master was rejected错误解决方案idea中，发布项目到gitee的Git中，当时按照这样的流程添加Git，然后push，提示：push to origin/master war rejected。
+解决方案如下：1.切换到自己项目所在的目录，右键选择GIT BASH Here，Idea中可使用Alt+F12
+2.在terminl窗口中依次输入命令：
+123git pullgit pull origin mastergit pull origin master --allow-unrelated-histories
+3.在idea中重新pus...
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
@@ -584,16 +585,15 @@ print可以传入多个参数，那么相对应的首尾输出。(可以理解ch
     
     
     <article class="index-post">
-        <a class="abstract-title" href="/git-error-resolve/">
+        <a class="abstract-title" href="/npm-install-error/">
             
-                <span>push to origin/master was rejected</span>
+                <span>npm 安装依赖失败</span>
         </a>
         <div class="abstract-content">
-            push to origin/master was rejected错误解决方案idea中，发布项目到gitee的Git中，当时按照这样的流程添加Git，然后push，提示：push to origin/master war rejected。
-解决方案如下：1.切换到自己项目所在的目录，右键选择GIT BASH Here，Idea中可使用Alt+F12
-2.在terminl窗口中依次输入命令：
-123git pullgit pull origin mastergit pull origin master --allow-unrelated-histories
-3.在idea中重新pus...
+            前言
+有时候，我们通过npm install进行项目初始化，会由于“天朝墙”的原因，可能会导致下载速度慢，无法下载等等问题出现。好在现在有很多国内镜像，也有一个帮助我们随意切换 npm 镜像的工具：nrm。
+
+123456789101112npm install -g nrmnrm ls* npm ---- https://registry.npmjs.org/  cnpm --- http://r.cnpmjs.org/  taobao - https://registry.npm.taobao.org/  nj ----- https://registry.nodejitsu.com...
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
@@ -925,12 +925,12 @@ Headers1234567891011121314# H1## H2### H3#### H4##### H5###### H6Alternatively, 
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">10/15</span><a class="archive-post-title" href="/git-error-resolve/">push to origin/master was rejected</a>
+            <span class="archive-post-date">10/15</span><a class="archive-post-title" href="/npm-install-error/">npm 安装依赖失败</a>
         </li>
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">10/15</span><a class="archive-post-title" href="/npm-install-error/">npm 安装依赖失败</a>
+            <span class="archive-post-date">10/15</span><a class="archive-post-title" href="/git-error-resolve/">push to origin/master was rejected</a>
         </li>
     
     
@@ -956,9 +956,9 @@ Headers1234567891011121314# H1## H2### H3#### H4##### H5###### H6Alternatively, 
     
         <span class="sidebar-tag-name" data-tags="技术"><span class="iconfont-archer">&#xe606;</span>技术</span>
     
-        <span class="sidebar-tag-name" data-tags="JAVA"><span class="iconfont-archer">&#xe606;</span>JAVA</span>
-    
         <span class="sidebar-tag-name" data-tags="PYTHON"><span class="iconfont-archer">&#xe606;</span>PYTHON</span>
+    
+        <span class="sidebar-tag-name" data-tags="JAVA"><span class="iconfont-archer">&#xe606;</span>JAVA</span>
     
         <span class="sidebar-tag-name" data-tags="文档"><span class="iconfont-archer">&#xe606;</span>文档</span>
     
