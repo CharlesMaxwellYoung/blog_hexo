@@ -351,15 +351,7 @@
                 <span>为你博客添加disqus评论系统</span>
         </a>
         <div class="abstract-content">
-            为你博客添加disqus评论系统
-前言博客做了有一段时间了，写了一些文章；想想写了这些东西，关键没有人评论，总感觉是自己一个人在对着自己说话，始终空落落的。因此自己就得整个评论的。于是乎，到找找国内评论的，发现好多的都要关闭了；不知道是什么原因。因此自己搭了一个梯子去国外网站去看看。发现了一个新大陆disqus
-开始1.任何网站都的从注册开始，这个网站也是这样的。
-
-注册，如图(记得自己弄梯子)：
-登录完成之后，他会显示一下页面，我们点击箭头所指方向
-进入之后，输入一些信息,然后点击 create site
-它会询问你，一些服务资费，这里我们选择基础的，也就是免费。（当然土豪可以忽略）
-...
+            基于 jekyll 博客，添加disqus系统
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
@@ -388,23 +380,7 @@
                 <span>Intellij-IDEA配置JDK1.8</span>
         </a>
         <div class="abstract-content">
-            
-背景
-Jdk 1.8支持Lambda新特性，想试试直接在IDEA使用，于是创建一个web项目，着手准备使用时，发现了以下的问题。环境已经中已经配置了jdk1.8环境
-
-解决方法
-先打开idea的project structure配置
-其次将所有的模块配置成为1.8环境，这样保证它的语法检测不报错，但是编译的时候他还是选择idea的默认配置，接下来更改编译配置
-
-
-
-进入idea的设置页面，将编译模式改成1.8
-
-
-异常问题如果缺少第三部，会出现如下错误
-
-FAQ:设置完成之后，如果重新启动IDEA时，就会发现所有的设置又重新恢复到默认状态（JDK 1.5)
-原因是：12345Apach...
+            idea配置支持java8 永久支持lambda属性
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
@@ -433,11 +409,7 @@ FAQ:设置完成之后，如果重新启动IDEA时，就会发现所有的设置
                 <span>push to origin/master was rejected</span>
         </a>
         <div class="abstract-content">
-            push to origin/master was rejected错误解决方案idea中，发布项目到gitee的Git中，当时按照这样的流程添加Git，然后push，提示：push to origin/master war rejected。
-解决方案如下：1.切换到自己项目所在的目录，右键选择GIT BASH Here，Idea中可使用Alt+F12
-2.在terminl窗口中依次输入命令：
-123git pullgit pull origin mastergit pull origin master --allow-unrelated-histories
-3.在idea中重新pus...
+            用来解决push to origin/master was rejected错误
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
@@ -466,10 +438,7 @@ FAQ:设置完成之后，如果重新启动IDEA时，就会发现所有的设置
                 <span>npm 安装依赖失败</span>
         </a>
         <div class="abstract-content">
-            前言
-有时候，我们通过npm install进行项目初始化，会由于“天朝墙”的原因，可能会导致下载速度慢，无法下载等等问题出现。好在现在有很多国内镜像，也有一个帮助我们随意切换 npm 镜像的工具：nrm。
-
-123456789101112npm install -g nrmnrm ls* npm ---- https://registry.npmjs.org/  cnpm --- http://r.cnpmjs.org/  taobao - https://registry.npm.taobao.org/  nj ----- https://registry.nodejitsu.com...
+            解决npm源，以及node-sass无法下载等系列问题
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
