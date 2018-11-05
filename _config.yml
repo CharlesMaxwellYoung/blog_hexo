@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://vineos.com
+url: https://vineo.cn
 root: /
 permalink: /:title/
 permalink_defaults:
