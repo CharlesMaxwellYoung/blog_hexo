@@ -6,7 +6,7 @@ abstract: 用来解决push to origin/master was rejected错误
 tags: 
 - 工具
 ---
-
+push to origin/master was rejected
 # push to origin/master was rejected错误解决方案
 idea中，发布项目到gitee的Git中，当时按照这样的流程添加Git，然后push，提示：`push to origin/master war rejected`。
 ![pull](http://upload-images.jianshu.io/upload_images/11162615-da4502c6e827b3b2?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

@@ -7,7 +7,7 @@ tags:
 - 技术
 - JAVA
 ---
-
+Java读取properties文件数据
 # 前言
 通过@value读取properties注意点
 
