@@ -9,6 +9,8 @@ tags:
 ---
 PYTHON 流程控制
 
+<!-- more -->
+
 # 基础知识
 
 ## print函数

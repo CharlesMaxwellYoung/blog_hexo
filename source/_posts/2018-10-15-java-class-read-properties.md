@@ -8,6 +8,9 @@ tags:
 - JAVA
 ---
 Java读取properties文件数据
+
+<!-- more -->
+
 # 前言
 通过@value读取properties注意点
 

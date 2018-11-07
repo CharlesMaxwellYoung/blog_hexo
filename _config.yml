@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Vineo
+title: 落长河的博客 | Vineo
 subtitle: 生活不止眼前的苟且，还有诗和远方的田野
-description: 落长河，第一波90后，前端开发者/伪极客/热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。
+description: 生活不止眼前的苟且，还有诗和远方的田野
 keywords: 落长河,落长河的博客,前端,web,python,java
 author: 落长河
-language: zh
+language: zh-Hans
 timezone:
 
 # URL
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: archer
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
