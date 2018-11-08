@@ -1,21 +1,19 @@
 ---
 layout: post
 title: "python 学习(一)"
-header_image: https://i.imgur.com/JjIQyzR.png 
+thumbnail: https://i.imgur.com/JjIQyzR.png
 abstract: 介绍python基础，核心知识：数字和字符串
 tags:
-- 技术
-- PYTHON
+  - PYTHON
+categories:
+  - 学习
 ---
 
-介绍python基础，核心知识：数字和字符串
-
-<!-- more -->
 
 # 基础知识
 
 ## 数字
-
+<!-- more -->
 - 加减乘除，以及圆括号运算
      ```python     
         print(2+4)

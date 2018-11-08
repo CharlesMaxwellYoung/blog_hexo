@@ -1,18 +1,18 @@
 ---
 layout: post
 title: "npm 安装依赖失败"
-header_image: https://i.imgur.com/PGBVhbD.png
+thumbnail: https://i.imgur.com/PGBVhbD.png
 abstract: 解决npm源，以及node-sass无法下载等系列问题
 tags:
- - 工具
+  - npm
+categories:
+  - 笔记
 ---
 
-解决npm源，以及node-sass无法下载等系列问题
-
-<!-- more -->
 
 # 前言
 - 有时候，我们通过`npm install`进行项目初始化，会由于“天朝墙”的原因，可能会导致下载速度慢，无法下载等等问题出现。
+<!-- more -->
 好在现在有很多国内镜像，也有一个帮助我们随意切换 npm 镜像的工具：nrm。
 
 ```bash

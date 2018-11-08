@@ -1,14 +1,13 @@
 ---
 title: python 学习(四)
 tags:
-  - 技术
   - PYTHON
-header_image: 'https://i.imgur.com/JjIQyzR.png'
+categories:
+  - 学习
+thumbnail: 'https://i.imgur.com/JjIQyzR.png'
 abstract: python 字符串
 date: 2018-11-06 23:40:33
 ---
-
-PYTHON 字符串
 
 > 所有序列操作对于字符串是同样适用，我们可以理解为将字符串里面的字符看成是序列的一个一个的元素。
 <!-- more -->

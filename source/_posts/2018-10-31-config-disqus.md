@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "为你博客添加disqus评论系统"
-header_image: https://i.imgur.com/Xb6JR06.png
+thumbnail: https://i.imgur.com/Xb6JR06.png
 abstract: 基于 jekyll 博客，添加disqus系统
+categories:
+  - 笔记
 tags: 
-- 工具
+  - disqus
 ---
-disqus评论系统
 
 ## 前言
 博客做了有一段时间了，写了一些文章；想想写了这些东西，关键没有人评论，总感觉是自己一个人在对着自己说话，始终空落落的。因此自己就得整个评论的。<br>

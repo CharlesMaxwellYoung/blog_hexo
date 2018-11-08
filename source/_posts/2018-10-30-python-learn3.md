@@ -1,22 +1,21 @@
 ---
 layout: post
 title: "python 学习(三)"
-header_image: https://i.imgur.com/JjIQyzR.png
+thumbnail: https://i.imgur.com/JjIQyzR.png
 abstract: python 序列中列表和元组
-tags: 
-- 技术
-- PYTHON
+categories:
+  - 学习
+tags:
+  - PYTHON
 ---
-PYTHON 序列 元组
 
-<!-- more -->
 
 # 基础知识
 
 > 在python中最基本的数据结构是序列。系列的每一个元素都被分配一个编号，可以称这个编号是索引。
 > 自己可以理解为其他语言的数组
 # 序列
-
+<!-- more -->
 ## 1.创建序列
 
 创建一个序列：

@@ -1,20 +1,19 @@
 ---
 layout: post
 title: "python 学习(二)"
-header_image: https://i.imgur.com/JjIQyzR.png
+thumbnail: https://i.imgur.com/JjIQyzR.png
 abstract: 主要介绍流程控制，（条件语句和循环语句）
 tags:
-- 技术
-- PYTHON
+  - PYTHON
+categories:
+  - 学习
 ---
-PYTHON 流程控制
 
-<!-- more -->
 
 # 基础知识
 
 ## print函数
-
+<!-- more -->
 > 表示打印
 
 - **print**可以传入多个参数，那么相对应的首尾输出。(可以理解chrome 浏览中`console `函数)例如:

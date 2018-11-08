@@ -1,19 +1,18 @@
 ---
 layout: post
 title: "java类读取properties"
-header_image: https://i.imgur.com/1yLFPcB.png
+thumbnail: https://i.imgur.com/1yLFPcB.png
 abstract: Java读取properties文件数据
-tags: 
-- 技术
-- JAVA
+tags:
+  - JAVA
+  - properties
+categories:
+  - 后端
 ---
-Java读取properties文件数据
-
-<!-- more -->
 
 # 前言
 通过@value读取properties注意点
-
+<!-- more -->
 - applicationContext文件读取文件需要配置成为多文件读取方式
 
   ```xml
