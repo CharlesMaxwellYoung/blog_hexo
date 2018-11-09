@@ -5,4 +5,16 @@ node_js:
 cache: yarn
 install: yarn
 script:
-  - yarn run publish
+  - hexo clean
+  - hexo generate
+after_script:
+- cd ./public
+- git init
+- git config user.name "charlesmaxwellyoung"
+- git config user.email "charlesmaxwellyoung@gmail.com"
+- git add .
+- git commit -m "Deploy blog pages"
+- git push --force --quiet "https://${access_token}@github.com/CharlesMaxwellYoung/charlesmaxwellyoung.github.io.git" master:gh-pages
+branches:
+  only:
+  - master
