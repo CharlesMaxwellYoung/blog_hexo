@@ -88,7 +88,7 @@ limit: 20
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://${access_token}@github.com/CharlesMaxwellYoung/charlesmaxwellyoung.github.io.git
+  repo: https://25ec92286d6d2320ff79c8c87d7e61044e1bd07c@github.com/CharlesMaxwellYoung/charlesmaxwellyoung.github.io.git
   branch: gh-pages
 # sitemap
 sitemap: 
