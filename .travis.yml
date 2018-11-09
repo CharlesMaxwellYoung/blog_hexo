@@ -14,7 +14,7 @@ after_script:
 - git config user.email "charlesmaxwellyoung@gmail.com"
 - git add .
 - git commit -m "Deploy blog pages"
-- git push --force --quiet "https://${access_token}@github.com/CharlesMaxwellYoung/charlesmaxwellyoung.github.io.git" master:gh-pages
+- git push --force --quiet "https://${access_token}@github.com/CharlesMaxwellYoung/blog_hexo.git" master:gh-pages
 branches:
   only:
   - master
