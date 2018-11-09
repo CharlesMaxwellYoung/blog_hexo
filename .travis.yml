@@ -2,7 +2,10 @@ language: node_js
 node_js:
   - "8"
   - "9"
-cache: yarn
+cache:
+  yarn: true
+  directories:
+  - node_modules
 install: yarn
 script:
   - hexo clean
@@ -12,9 +15,8 @@ after_script:
 - git init
 - git config user.name "charlesmaxwellyoung"
 - git config user.email "charlesmaxwellyoung@gmail.com"
-- git add .
-- git commit -m "Deploy blog pages"
-- git push --force --quiet "https://${access_token}@github.com/CharlesMaxwellYoung/blog_hexo.git" gh-pages:gh-pages
+- sed -i "s/gh_token/${access_token}/g" ./_config.yml
+- hexo deploy
 branches:
   only:
   - master
