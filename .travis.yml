@@ -6,12 +6,15 @@ cache:
   yarn: true
   directories:
   - node_modules
-install: yarn
+before_install:
+- npm install -g hexo-cli
+install:
+- yarn
+- yarn add hexo-deployer-git
 script:
   - hexo clean
   - hexo generate
 after_script:
-- cd ./public
 - git init
 - git config user.name "charlesmaxwellyoung"
 - git config user.email "charlesmaxwellyoung@gmail.com"
