@@ -1,11 +1,17 @@
+# 指定语言环境
 language: node_js
+# 指定需要sudo权限
+sudo: required
 node_js:
-  - "8"
   - "9"
+# 指定缓存模块，可选。缓存可加快编译速度。
 cache:
   yarn: true
   directories:
   - node_modules
+branches:
+  only:
+  - master
 before_install:
 - npm install -g hexo-cli
 install:
@@ -20,6 +26,3 @@ after_script:
 - git config user.email "charlesmaxwellyoung@gmail.com"
 - sed -i "s/gh_token/${access_token}/g" ./_config.yml
 - hexo deploy
-branches:
-  only:
-  - master
