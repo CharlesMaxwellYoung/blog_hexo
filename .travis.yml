@@ -13,16 +13,21 @@ branches:
   only:
   - master
 before_install:
+- git init
+- git config user.name "charlesmaxwellyoung"
+- git config user.email "charlesmaxwellyoung@gmail.com"
+- curl -o- -L https://yarnpkg.com/install.sh | bash
+- export PATH=$HOME/.yarn/bin:$PATH
 - npm install -g hexo-cli
 install:
 - yarn
-- yarn add hexo-deployer-git
 script:
   - hexo clean
   - hexo generate
 after_script:
+- cd ./public
 - git init
-- git config user.name "charlesmaxwellyoung"
-- git config user.email "charlesmaxwellyoung@gmail.com"
-- sed -i "s/gh_token/${access_token}/g" ./_config.yml
-- hexo deploy
+- git add --all .
+- git commit -m "Travis CI Auto Builder"
+# 这里的 REPO_TOKEN 即之前在 travis 项目的环境变量里添加的
+- git push --quiet --force https://$access_token@github.com/CharlesMaxwellYoung/blog_hexo.git gh-pages
