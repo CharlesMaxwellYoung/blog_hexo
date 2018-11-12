@@ -1,6 +1,7 @@
 ---
 title: {{ title }}
-header_image:
+thumbnail: https://i.imgur.com/1yLFPcB.png
 abstract:
 tags:
+categories:
 ---

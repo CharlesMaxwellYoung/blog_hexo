@@ -5,7 +5,6 @@ tags:
 categories:
   - 学习
 thumbnail: 'https://i.imgur.com/JjIQyzR.png'
-abstract: python 字符串
 date: 2018-11-06 23:40:33
 ---
 
