@@ -14,6 +14,7 @@ categories:
 
 ## 数字
 <!-- more -->
+<!-- toc -->
 - 加减乘除，以及圆括号运算
      ```python     
         print(2+4)

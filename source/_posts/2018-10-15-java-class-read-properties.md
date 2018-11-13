@@ -13,6 +13,7 @@ categories:
 # 前言
 通过@value读取properties注意点
 <!-- more -->
+<!-- toc -->
 - applicationContext文件读取文件需要配置成为多文件读取方式
 
   ```xml

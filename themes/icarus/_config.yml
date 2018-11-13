@@ -1,11 +1,11 @@
 # Version of the Icarus theme that is currently used
 version: 2.0.0
 # Path or URL to the website's icon
-favicon: /images/favicon.svg
+favicon: /images/favicon.ico
 # Path or URL to RSS atom.xml
 rss: /atom.xml
 # Path or URL to the website's logo to be shown on the left of the navigation bar or footer
-logo: /images/logo.svg
+logo: /images/logo.jpg
 # Open Graph metadata (https://hexo.io/docs/helpers.html#open-graph)
 open_graph:
   # Facebook App ID
@@ -60,10 +60,10 @@ search:
 # Comment plugin settings (http://ppoffice.github.io/hexo-theme-icarus/categories/Configuration/Comment-Plugins)
 comment:
   # Name of the comment plugin
-  type: disqus
-  shortname: https-vineo-cn-1
-  #type: livere
-  #uid: MTAyMC80MDY4Ny8xNzIxMg==
+  #type: disqus
+  #shortname: https-vineo-cn-1
+  type: livere
+  uid: MTAyMC80MDY4Ny8xNzIxMg==
 # Share plugin settings (http://ppoffice.github.io/hexo-theme-icarus/categories/Configuration/Share-Plugins)
 share:
   # Share plugin name
@@ -74,7 +74,7 @@ widgets:
   position: left
   author: 23.9K
   author_title: 生活不止眼前的苟且，还有诗和远方的田野
-  location: Earth China JIANGSU NJ
+  location: Earth.China.JIANGSU.NJ
   avatar: 'images/15714962.jpg'
   gravatar:
   follow_link: 'https://github.com/CharlesMaxwellYoung'
@@ -147,3 +147,12 @@ providers:
   fontcdn: google
   # Name or URL of the webfont Icon CDN provider
   iconcdn: fontawesome
+toc:
+  maxdepth: 3
+  class: toc
+  slugify: transliteration
+  decodeEntities: false
+  anchor:
+    position: after
+    symbol: '#'
+    style: header-anchor

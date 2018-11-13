@@ -14,6 +14,7 @@ categories:
 
 ## print函数
 <!-- more -->
+<!-- toc -->
 > 表示打印
 
 - **print**可以传入多个参数，那么相对应的首尾输出。(可以理解chrome 浏览中`console `函数)例如:
