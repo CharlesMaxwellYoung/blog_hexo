@@ -6,8 +6,7 @@ thumbnail: 'https://i.imgur.com/JjIQyzR.png'
 categories:
   - 学习
 date: 2018-11-13 23:54:08
-header_image:
-abstract:
+toc: true
 ---
 
 
@@ -16,8 +15,6 @@ abstract:
 
 <!-- more -->
 
-
-<!-- toc -->
 ## 创建和使用字典 `dict` 函数
 1. 字典可以用下面的创建
 

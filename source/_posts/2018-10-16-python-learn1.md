@@ -3,6 +3,7 @@ layout: post
 title: "python 学习(一)"
 thumbnail: https://i.imgur.com/JjIQyzR.png
 abstract: 介绍python基础，核心知识：数字和字符串
+toc: true
 tags:
   - PYTHON
 categories:
@@ -14,7 +15,7 @@ categories:
 
 ## 数字
 <!-- more -->
-<!-- toc -->
+
 - 加减乘除，以及圆括号运算
      ```python     
         print(2+4)

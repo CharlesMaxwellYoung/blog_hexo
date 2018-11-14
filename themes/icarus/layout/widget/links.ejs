@@ -9,12 +9,9 @@
         <ul class="menu-list">
         <% for (let i in links) { %>
             <li>
-                <a class="level is-mobile" href="<%- links[i] %>" target="_blank">
+                <a class="level is-mobile" href="<%- links[i] %>" target="_blank" title="<%- links[i] %>">
                     <span class="level-left">
                         <span class="level-item"><%= i %></span>
-                    </span>
-                    <span class="level-right">
-                        <span class="level-item tag"><%- links[i] %></span>
                     </span>
                 </a>
             </li>

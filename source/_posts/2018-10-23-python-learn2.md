@@ -3,6 +3,7 @@ layout: post
 title: "python 学习(二)"
 thumbnail: https://i.imgur.com/JjIQyzR.png
 abstract: 主要介绍流程控制，（条件语句和循环语句）
+toc: true
 tags:
   - PYTHON
 categories:
@@ -14,7 +15,7 @@ categories:
 
 ## print函数
 <!-- more -->
-<!-- toc -->
+
 > 表示打印
 
 - **print**可以传入多个参数，那么相对应的首尾输出。(可以理解chrome 浏览中`console `函数)例如:

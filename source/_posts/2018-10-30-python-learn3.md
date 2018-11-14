@@ -3,6 +3,7 @@ layout: post
 title: "python 学习(三)"
 thumbnail: https://i.imgur.com/JjIQyzR.png
 abstract: python 序列中列表和元组
+toc: true
 categories:
   - 学习
 tags:
@@ -16,7 +17,7 @@ tags:
 > 自己可以理解为其他语言的数组
 # 序列
 <!-- more -->
-<!-- toc -->
+
 ## 1.创建序列
 
 创建一个序列：

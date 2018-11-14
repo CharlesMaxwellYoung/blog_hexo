@@ -3,6 +3,7 @@ layout: post
 title: "java类读取properties"
 thumbnail: https://i.imgur.com/1yLFPcB.png
 abstract: Java读取properties文件数据
+toc: true
 tags:
   - JAVA
   - properties
@@ -13,7 +14,7 @@ categories:
 # 前言
 通过@value读取properties注意点
 <!-- more -->
-<!-- toc -->
+
 - applicationContext文件读取文件需要配置成为多文件读取方式
 
   ```xml
