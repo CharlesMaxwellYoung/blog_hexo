@@ -27,7 +27,6 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-
 # Writing
 new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
@@ -95,3 +94,27 @@ sitemap:
     path: sitemap.xml
 baidusitemap:
     path: baidusitemap.xml
+    
+markdown:
+    render:
+      html: true
+      xhtmlOut: false
+      breaks: true
+      linkify: true
+      typographer: true
+      quotes: '“”‘’'
+    plugins:
+      - markdown-it-abbr
+      - markdown-it-footnote
+      - markdown-it-ins
+      - markdown-it-sub
+      - markdown-it-sup
+      - markdown-it-emoji  ## add emoji
+    anchors:
+      level: 2
+      collisionSuffix: 'v'
+      # If `true`, creates an anchor tag with a permalink besides the heading.
+      permalink: false  
+      permalinkClass: header-anchor
+      # The symbol used to make the permalink
+      permalinkSymbol: ¶
