@@ -93,7 +93,7 @@ ng build tvmaze
 我们直接使用以下命令：前提是你注册npm账号
 
 ```bash
-ng build tvmaze --prod 
+ng build tvmaze
 cd dist / tvmaze 
 npm publish
 ```
