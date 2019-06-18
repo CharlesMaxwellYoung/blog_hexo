@@ -10,7 +10,7 @@ tags:
   - PYTHON
 ---
 
-
+![a](https://i.imgur.com/JjIQyzR.png)
 # 基础知识
 
 > 在python中最基本的数据结构是序列。系列的每一个元素都被分配一个编号，可以称这个编号是索引。

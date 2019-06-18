@@ -10,7 +10,7 @@ categories:
   - 学习
 ---
 
-
+![a](https://i.imgur.com/JjIQyzR.png)
 # 基础知识
 
 ## print函数

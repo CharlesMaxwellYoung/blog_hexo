@@ -8,7 +8,9 @@ subtitle: 生活不止眼前的苟且，还有诗和远方的田野
 description: 生活不止眼前的苟且，还有诗和远方的田野
 keywords: 落长河,落长河的博客,前端,web,python,java
 author: 23.9K
-language: zh-CN
+language:
+  - zh-cn
+  - en
 timezone:
 
 # URL
@@ -42,7 +44,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -51,7 +53,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -72,7 +74,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: icarus
+theme: minos
 # RSS订阅支持
 plugin:
 - hexo-generator-feed
@@ -90,11 +92,11 @@ deploy:
   repo: https://access_token@github.com/CharlesMaxwellYoung/blog_hexo.git
   branch: gh-pages
 # sitemap
-sitemap: 
+sitemap:
     path: sitemap.xml
 baidusitemap:
     path: baidusitemap.xml
-    
+
 markdown:
     render:
       html: true
@@ -114,7 +116,7 @@ markdown:
       level: 2
       collisionSuffix: 'v'
       # If `true`, creates an anchor tag with a permalink besides the heading.
-      permalink: false  
+      permalink: false
       permalinkClass: header-anchor
       # The symbol used to make the permalink
       permalinkSymbol: ¶

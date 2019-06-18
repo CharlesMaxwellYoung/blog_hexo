@@ -10,7 +10,7 @@ date: 2018-12-13 22:06:05
 abstract:
 ---
 
-
+![](https://i.imgur.com/hKisSVx.jpg)
 安装**mongodb.msc**文件时，最后一步总是报错，告诉你服务安装失败。于是下载了**mongodb** ZIP包；也就是绿色版本，进行安装！
 
 <!--more-->

@@ -8,6 +8,7 @@ thumbnail: 'https://i.imgur.com/JjIQyzR.png'
 date: 2018-11-06 23:40:33
 toc: true
 ---
+![a](https://i.imgur.com/JjIQyzR.png)
 
 > 所有序列操作对于字符串是同样适用，我们可以理解为将字符串里面的字符看成是序列的一个一个的元素。
 <!-- more -->

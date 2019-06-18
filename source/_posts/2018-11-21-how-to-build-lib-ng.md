@@ -8,7 +8,7 @@ categories:
 date: 2018-11-21 00:10:03
 ---
 
-
+![a](https://i.imgur.com/FgnSK76.jpg)
 > 完整指南
 
 Angular 团队 在 angular6 中，使得创建 Angular 第三方库变得更为简单。如果你以前尝试过操作，你会发现其实不是很简单！
