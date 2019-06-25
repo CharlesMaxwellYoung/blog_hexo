@@ -89,7 +89,7 @@ limit: 20
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://access_token@github.com/CharlesMaxwellYoung/blog_hexo.git
+  repo: https://access_token@github.com/yy921010/blog_hexo.git
   branch: gh-pages
 # sitemap
 sitemap:

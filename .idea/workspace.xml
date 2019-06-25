@@ -4,300 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/_config.yml" line="76" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e08c62b-90c0-468c-8031-e6a3c34945f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/hueman/.github/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/languages/ca.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/languages/en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/languages/es.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/languages/fr.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/languages/hu.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/languages/id.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/languages/ja.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/languages/ko.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/languages/pt-BR.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/languages/ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/languages/tr.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/languages/vi.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/languages/zh-CN.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/languages/zh-TW.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/archive.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/author.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/category.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/comment/changyan.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/comment/counter.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/comment/disqus.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/comment/duoshuo.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/comment/facebook.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/comment/gitalk.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/comment/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/comment/isso.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/comment/livere.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/comment/scripts.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/comment/valine.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/comment/youyan.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/common/archive.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/common/article.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/common/content-title.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/common/footer.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/common/head.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/common/header.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/common/post/author.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/common/post/date.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/common/post/gallery.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/common/post/ld_json.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/common/post/nav.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/common/post/tag.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/common/post/title.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/common/scripts.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/common/sidebar.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/common/summary.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/common/thumbnail.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/layout.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/page.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/plugin/baidu-analytics.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/plugin/google-analytics.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/plugin/scripts.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/plugin/statcounter.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/post.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/pwa/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/search/baidu.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/search/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/search/insight.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/search/swiftype.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/share/addtoany.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/share/bdshare.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/share/default.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/share/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/share/jiathis.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/tag.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/widget/archive.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/widget/catalog.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/widget/category.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/widget/links.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/widget/recent_posts.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/widget/sticky_posts.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/widget/tag.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/layout/widget/tagcloud.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/scripts/excerpt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/scripts/md5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/scripts/meta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/scripts/thumbnail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_extend.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/agate.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/androidstudio.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/arduino-light.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/arta.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/ascetic.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-cave-dark.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-cave-light.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-dune-dark.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-dune-light.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-estuary-dark.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-estuary-light.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-forest-dark.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-forest-light.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-heath-dark.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-heath-light.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-lakeside-dark.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-lakeside-light.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-plateau-dark.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-plateau-light.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-savanna-dark.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-savanna-light.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-seaside-dark.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-seaside-light.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-sulphurpool-dark.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/atelier-sulphurpool-light.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/brown-paper.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/brown-papersq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/codepen-embed.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/color-brewer.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/dark.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/darkula.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/docco.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/far.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/foundation.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/github-gist.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/github.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/googlecode.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/grayscale.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/highlightjs.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/hopscotch.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/hybrid.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/idea.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/index.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/ir-black.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/kimbie.dark.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/kimbie.light.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/magula.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/mono-blue.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/monokai-sublime.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/monokai.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/obsidian.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/paraiso-dark.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/paraiso-light.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/pojoaque.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/pojoaque.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/railscasts.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/rainbow.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/school-book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/school-book.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/solarized-dark.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/solarized-light.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/sunburst.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/tomorrow-night-blue.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/tomorrow-night-bright.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/tomorrow-night-eighties.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/tomorrow-night.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/tomorrow.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/vs.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/xcode.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_highlight/zenburn.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_partial/archive.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_partial/article.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_partial/assets.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_partial/comment.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_partial/footer.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_partial/header.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_partial/insight.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_partial/nav.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_partial/sidebar.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_responsive.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/_variables.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/images/logo-header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/images/opacity-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/images/s-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/images/thumb-default-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/images/thumb-default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/css/style.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/jquery/3.3.1/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/justified-gallery/jquery.justifiedGallery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/justified-gallery/justifiedGallery.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/css/lg-fb-comment-box.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/css/lg-fb-comment-box.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/css/lg-fb-comment-box.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/css/lg-transitions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/css/lg-transitions.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/css/lg-transitions.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/css/lightgallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/css/lightgallery.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/css/lightgallery.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/fonts/lg.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/fonts/lg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/fonts/lg.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/fonts/lg.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/img/video-play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/img/vimeo-play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/img/youtube-play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/js/lg-autoplay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/js/lg-autoplay.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/js/lg-fullscreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/js/lg-fullscreen.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/js/lg-hash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/js/lg-hash.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/js/lg-pager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/js/lg-pager.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/js/lg-share.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/js/lg-share.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/js/lg-thumbnail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/js/lg-thumbnail.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/js/lg-video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/js/lg-video.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/js/lg-zoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/js/lg-zoom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/js/lightgallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/lightgallery/js/lightgallery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/source-code-pro/fonts/mrl8jkM18OlOQN8JLgasD9V_2ngZ8dMf8fLgjYEouxg.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/source-code-pro/fonts/mrl8jkM18OlOQN8JLgasDy2Q8seG17bfDXYR_jUsrzg.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/source-code-pro/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/titillium-web/fonts/7XUFZ5tgS-tD6QamInJTcSo_WB_cotcEMUw1LsIE8mM.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/titillium-web/fonts/7XUFZ5tgS-tD6QamInJTcZSnX671uNZIV63UdXh3Mg0.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/titillium-web/fonts/anMUvcNT0H1YN4FII8wpr4-67659ICLY8bMrYhtePPA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/titillium-web/fonts/anMUvcNT0H1YN4FII8wpr46gJz9aNFrmnwBdd69aqzY.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/titillium-web/fonts/anMUvcNT0H1YN4FII8wpr9INifKjd1RJ3NxxEi9Cy2w.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/titillium-web/fonts/anMUvcNT0H1YN4FII8wpr_SNRT0fZ5CX-AqRkMYgJJo.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hueman/source/libs/titillium-web/styles.css" afterDir="false" />
+    <list default="true" id="6e08c62b-90c0-468c-8031-e6a3c34945f0" name="Default Changelist" comment="更新travis 配置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/languages/en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/languages/es.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/languages/fr.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/languages/ko.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/languages/ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/languages/zh-cn.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/languages/zh-tw.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/archive.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/categories.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/category.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/comment/changyan.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/comment/disqus.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/comment/facebook.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/comment/gitment.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/comment/isso.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/comment/livere.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/comment/valine.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/comment/youyan.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/common/article.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/common/footer.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/common/head.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/common/languages.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/common/navbar.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/common/paginator.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/common/scripts.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/index.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/layout.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/plugins/clipboard.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/plugins/gallery.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/plugins/google-analytics.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/plugins/katex.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/plugins/mathjax.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/post.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/search/google-cse.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/search/insight.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/share/addthis.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/share/sharethis.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/tag.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/layout/tags.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/lib/i18n.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/lib/rfc5646.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/scripts/01_check.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/scripts/10_i18n.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/scripts/99_config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/scripts/99_content.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/scripts/99_tags.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/source/css/insight.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/source/css/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/source/images/check.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/source/images/exclamation.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/source/images/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hueman/source/images/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/source/images/info.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/source/images/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hueman/source/images/logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/source/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hueman/source/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/source/images/question.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/source/images/quote-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/source/js/insight.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hueman/source/js/insight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/minos/source/js/script.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -313,10 +22,19 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/themes/hueman/_config.yml">
+            <entry file="file://$PROJECT_DIR$/.travis.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="346">
-                  <caret line="108" column="28" lean-forward="true" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
+                <state relative-caret-position="352">
+                  <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/_config.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="391">
+                  <caret line="92" column="18" lean-forward="true" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -479,7 +197,6 @@
         <option value="$PROJECT_DIR$/themes/icarus/layout/widget/profile.ejs" />
         <option value="$PROJECT_DIR$/source/_posts/2017-10-15-markdown-cheatsheet.md" />
         <option value="$PROJECT_DIR$/themes/icarus/.gitignore" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/scaffolds/draft.md" />
         <option value="$PROJECT_DIR$/themes/icarus/_config.yml" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -500,8 +217,9 @@
         <option value="$PROJECT_DIR$/source/_posts/2018-11-21-how-to-build-lib-ng.md" />
         <option value="$PROJECT_DIR$/source/_posts/2018-12-04-year-end-summary.md" />
         <option value="$PROJECT_DIR$/source/_posts/2018-12-13-install-mongodb-window.md" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/themes/hueman/_config.yml" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -527,11 +245,6 @@
             <path>
               <item name="blog-hexo" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog-hexo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-hexo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-hexo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -653,7 +366,7 @@
       <workItem from="1543151902078" duration="38000" />
       <workItem from="1560868896151" duration="4920000" />
       <workItem from="1561262902236" duration="90000" />
-      <workItem from="1561471746580" duration="2259000" />
+      <workItem from="1561471746580" duration="4509000" />
     </task>
     <task id="LOCAL-00001" summary="博客最终主题切换">
       <created>1541694330088</created>
@@ -823,29 +536,43 @@
       <option name="project" value="LOCAL" />
       <updated>1560873769051</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="主题修改">
+      <created>1561474080620</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1561474080621</updated>
+    </task>
+    <task id="LOCAL-00026" summary="更新travis 配置">
+      <created>1561475237994</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1561475237994</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41196000" />
+    <option name="totallyTimeSpent" value="43446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832776" visible="true" weight="0.250591" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49832776" visible="true" weight="0.21552403" />
       <window_info id="Structure" order="1" sideWeight="0.50167227" side_tool="true" weight="0.250591" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36231884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49947312" weight="0.30657747" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49947312" visible="true" weight="0.30657747" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.27982163" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -860,16 +587,11 @@
     <MESSAGE value="ci 构建" />
     <MESSAGE value="python5 学习临时保存" />
     <MESSAGE value="博客更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="博客更新" />
+    <MESSAGE value="主题修改" />
+    <MESSAGE value="更新travis 配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新travis 配置" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/icarus/includes/specs/config.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/minos/languages/zh-cn.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1112,13 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/2018-10-23-python-learn2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1192,8 +907,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/hueman/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="108" column="28" lean-forward="true" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
+        <state relative-caret-position="2324">
+          <caret line="104" column="18" lean-forward="true" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="92" column="18" lean-forward="true" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
         </state>
       </provider>
     </entry>
