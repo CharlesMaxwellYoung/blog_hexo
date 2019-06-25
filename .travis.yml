@@ -25,9 +25,7 @@ script:
   - hexo clean
   - hexo generate
 after_script:
-- cd ./public
-- git init
-- git add --all .
-- git commit -m "Travis CI Auto Builder"
-# 这里的 REPO_TOKEN 即之前在 travis 项目的环境变量里添加的
-- git push --quiet --force https://${access_token}@github.com/yy921010/blog_hexo.git gh-pages
+- git config user.name "yy921010"
+- git config user.email "charlesmaxwellyoung@gmail.com"
+- sed -i "s/gh_token/${access_token}/g" ./_config.yml
+- hexo deploy
