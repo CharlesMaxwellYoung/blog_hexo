@@ -3,29 +3,24 @@ language: node_js
 # 指定需要sudo权限
 sudo: required
 node_js:
-  - "9"
+  - "10.12.0"
 # 指定缓存模块，可选。缓存可加快编译速度。
 cache:
-  yarn: true
   directories:
-  - node_modules
+    - node_modules
 branches:
   only:
   - master
 before_install:
-- git init
-- git config user.name "yy921010"
-- git config user.email "charlesmaxwellyoung@gmail.com"
-- curl -o- -L https://yarnpkg.com/install.sh | bash
-- export PATH=$HOME/.yarn/bin:$PATH
-- npm install -g hexo-cli
+  - npm install -g hexo-cli
 install:
-- yarn
+  - npm install
+  - npm install hexo-deployer-git --save
 script:
   - hexo clean
   - hexo generate
 after_script:
-- git config user.name "yy921010"
-- git config user.email "charlesmaxwellyoung@gmail.com"
-- sed -i "s/gh_token/${access_token}/g" ./_config.yml
-- hexo deploy
+  - git config user.name "yy921010"
+  - git config user.email "charlesmaxwellyoung@gmail.com"
+  - sed -i "s/gh_token/${access_token}/g" ./_config.yml
+  - hexo deploy
