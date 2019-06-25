@@ -15,10 +15,9 @@ before_install:
   - npm install -g hexo-cli
 install:
   - npm install
-  - npm install hexo-deployer-git --save
 script:
   - hexo clean
-  - hexo generate
+  - hexo g
 after_script:
   - git config user.name "yy921010"
   - git config user.email "charlesmaxwellyoung@gmail.com"
