@@ -9,7 +9,7 @@ tags:
 categories:
   - 笔记
 ---
-![a](https://i.imgur.com/j8qgVtW.png)
+
 # push to origin/master was rejected错误解决方案
 idea中，发布项目到gitee的Git中，当时按照这样的流程添加Git，然后push，提示：`push to origin/master war rejected`。
 <!-- more -->

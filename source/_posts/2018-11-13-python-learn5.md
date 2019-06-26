@@ -9,7 +9,6 @@ date: 2018-11-13 23:54:08
 toc: true
 ---
 
-![a](https://i.imgur.com/JjIQyzR.png)
 
 > 字典,类似于javascript 中的map 对象
 >

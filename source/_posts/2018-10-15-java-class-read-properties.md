@@ -10,7 +10,7 @@ tags:
 categories:
   - 后端
 ---
-![a](https://i.imgur.com/1yLFPcB.png)
+
 # 前言
 通过@value读取properties注意点
 <!-- more -->

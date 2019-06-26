@@ -10,7 +10,6 @@ categories:
   - 笔记
 ---
 
-![a](https://i.imgur.com/PGBVhbD.png)
 # 前言
 - 有时候，我们通过`npm install`进行项目初始化，会由于“天朝墙”的原因，可能会导致下载速度慢，无法下载等等问题出现。
 <!-- more -->
