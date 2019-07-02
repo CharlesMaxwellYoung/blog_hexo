@@ -4,12 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/_config.yml" line="76" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e08c62b-90c0-468c-8031-e6a3c34945f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/hueman/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hueman/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hueman/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="6e08c62b-90c0-468c-8031-e6a3c34945f0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -53,8 +48,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/_config.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="230">
-                  <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+                <state relative-caret-position="391">
+                  <caret line="83" column="10" lean-forward="true" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -287,11 +282,11 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="384" />
-    <option name="y" value="323" />
-    <option name="width" value="1489" />
-    <option name="height" value="858" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="433" />
+    <option name="y" value="198" />
+    <option name="width" value="1535" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -306,11 +301,6 @@
             <path>
               <item name="blog-hexo" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog-hexo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-hexo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-hexo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -445,7 +435,7 @@
       <workItem from="1543151902078" duration="38000" />
       <workItem from="1560868896151" duration="4920000" />
       <workItem from="1561262902236" duration="90000" />
-      <workItem from="1561471746580" duration="7631000" />
+      <workItem from="1561471746580" duration="8128000" />
     </task>
     <task id="LOCAL-00001" summary="博客最终主题切换">
       <created>1541694330088</created>
@@ -664,22 +654,29 @@
       <option name="project" value="LOCAL" />
       <updated>1561479158219</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="更新travis 配置">
+      <created>1561479434777</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1561479434777</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46568000" />
+    <option name="totallyTimeSpent" value="47065000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
+    <frame x="433" y="198" width="1535" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832776" visible="true" weight="0.21552403" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832776" visible="true" weight="0.36539745" />
       <window_info id="Structure" order="1" sideWeight="0.50167227" side_tool="true" weight="0.250591" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36231884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36231884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1038,8 +1035,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+        <state relative-caret-position="391">
+          <caret line="83" column="10" lean-forward="true" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
         </state>
       </provider>
     </entry>
