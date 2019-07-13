@@ -3,7 +3,7 @@ title: promise 冷知识
 tags:
   - javascript
   - promise
-thumbnail: 'https://ws1.sinaimg.cn/large/005OSGRxgy1g4luf5lgrsj30q90es74b.jpg'
+thumbnail: https://i.imgur.com/BUxRT67.jpg
 toc: true
 categories:
   - 笔记
@@ -15,6 +15,8 @@ abstract:
 ### promise 总结
 
 - promise 属于宏任务
+
+<!-- more -->
 
 - promise 构造函数是同步，而 then 是异步的
 
