@@ -1,2 +1,2 @@
-Sitemap: http://charlesmaxwellyoung.github.io/sitemap.xml
-Sitemap: http://charlesmaxwellyoung.github.io/baidusitemap.xml
+Sitemap: https://vineo.cn/sitemap.xml
+Sitemap: https://vineo.cn/baidusitemap.xml

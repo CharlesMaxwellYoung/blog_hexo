@@ -17,7 +17,7 @@ customize:
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: /images/favicon.ico # path to favicon
     social_links: # for more icons, please see http://fontawesome.io/icons/#brand
-        github: https://github.com/CharlesMaxwellYoung
+        github: https://github.com/yy921010
         rss: /atom.xml
 
 # Widgets
