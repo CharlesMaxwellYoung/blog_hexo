@@ -13,8 +13,8 @@ abstract:
 
 > 要了解 js 执行机制：首先我们先弄清楚两点：
 >
-> 1. JavaScript是单线程的语言
-> 2. Event Loop是javascript的执行机制
+> 1. JavaScript是单线程的语言。
+> 2. Event Loop是javascript的执行机制。
 
 <!-- more -->
 
