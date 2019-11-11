@@ -1,0 +1,36 @@
+name: blog auto publish
+on: [push]
+jobs:
+  builds:
+    runs-on: unbantu-least
+    strategy:
+      matrix:
+        node-version: [10.x]
+
+    steps:
+      - uses: actions/checkout
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+          with:
+            node-version: "10.x"
+
+      - name: setup hexo env
+        env:
+          ACTION_DEPLOY_KEY: ${{ secrets.BLOG_ACTION }}
+        run: |
+          # set up private key for deploy
+          mkdir -p ~/.ssh/
+          echo "ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          # set git infomation
+          git config --global user.name 'yy921010'
+          git config --global user.email 'charlesmaxwellyoung@gmail.com'
+          # install dependencies
+          npm i -g hexo-cli
+          npm i
+
+      - name: blog publish
+        run: |
+          hexo g -d
+
