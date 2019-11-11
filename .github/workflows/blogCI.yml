@@ -11,8 +11,8 @@ jobs:
       - uses: actions/checkout
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
-          with:
-            node-version: "10.x"
+        with:
+          node-version: "10.x"
 
       - name: setup hexo env
         env:

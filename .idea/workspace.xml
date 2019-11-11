@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e08c62b-90c0-468c-8031-e6a3c34945f0" name="Default Changelist" comment="更新travis 配置">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/blogCI.yml" afterDir="false" />
+    <list default="true" id="6e08c62b-90c0-468c-8031-e6a3c34945f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/blogCI.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/blogCI.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +51,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -174,7 +172,7 @@
       <workItem from="1560868896151" duration="4920000" />
       <workItem from="1561262902236" duration="90000" />
       <workItem from="1561471746580" duration="8128000" />
-      <workItem from="1573478740590" duration="2483000" />
+      <workItem from="1573478740590" duration="2690000" />
     </task>
     <task id="LOCAL-00001" summary="博客最终主题切换">
       <created>1541694330088</created>
@@ -400,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561479434777</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="去除travis 配置，修改为github action">
+      <created>1573481321810</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1573481321810</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,6 +429,7 @@
     <MESSAGE value="博客更新" />
     <MESSAGE value="主题修改" />
     <MESSAGE value="更新travis 配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新travis 配置" />
+    <MESSAGE value="去除travis 配置，修改为github action" />
+    <option name="LAST_COMMIT_MESSAGE" value="去除travis 配置，修改为github action" />
   </component>
 </project>
