@@ -1,11 +1,8 @@
-name: blog auto publish
-on: [push]
+name: build and auto publish github pages
+on: push
 jobs:
   builds:
     runs-on: unbantu-least
-    strategy:
-      matrix:
-        node-version: [10.x]
 
     steps:
       - uses: actions/checkout@v1

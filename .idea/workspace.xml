@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6e08c62b-90c0-468c-8031-e6a3c34945f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/blogCI.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/blogCI.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +172,7 @@
       <workItem from="1560868896151" duration="4920000" />
       <workItem from="1561262902236" duration="90000" />
       <workItem from="1561471746580" duration="8128000" />
-      <workItem from="1573478740590" duration="2761000" />
+      <workItem from="1573478740590" duration="3003000" />
     </task>
     <task id="LOCAL-00001" summary="博客最终主题切换">
       <created>1541694330088</created>
@@ -411,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573481498817</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="去除travis 配置，修改为github action">
+      <created>1573481575421</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1573481575421</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
