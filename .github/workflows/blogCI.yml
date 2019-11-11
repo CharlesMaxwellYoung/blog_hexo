@@ -2,7 +2,7 @@ name: build and auto publish github pages
 on: [push]
 jobs:
   builds:
-    runs-on: ubuntu-least
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [10.x]
