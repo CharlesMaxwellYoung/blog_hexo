@@ -172,7 +172,7 @@
       <workItem from="1560868896151" duration="4920000" />
       <workItem from="1561262902236" duration="90000" />
       <workItem from="1561471746580" duration="8128000" />
-      <workItem from="1573478740590" duration="3003000" />
+      <workItem from="1573478740590" duration="3801000" />
     </task>
     <task id="LOCAL-00001" summary="博客最终主题切换">
       <created>1541694330088</created>
@@ -419,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573481575421</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="去除travis 配置，修改为github action">
+      <created>1573481813265</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1573481813265</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
