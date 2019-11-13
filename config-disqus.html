@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="utf-8">
+
+    
+
+    
+    <title>为你博客添加disqus评论系统 | 23.9K | Vineo</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="disqus">
+    
+    <meta name="description" content="前言博客做了有一段时间了，写了一些文章；想想写了这些东西，关键没有人评论，总感觉是自己一个人在对着自己说话，始终空落落的。因此自己就得整个评论的。于是乎，到找找国内评论的，发现好多的都要关闭了；不知道是什么原因。">
+<meta name="keywords" content="disqus">
+<meta property="og:type" content="article">
+<meta property="og:title" content="为你博客添加disqus评论系统">
+<meta property="og:url" content="https://vineo.cn/config-disqus.html">
+<meta property="og:site_name" content="23.9K | Vineo">
+<meta property="og:description" content="前言博客做了有一段时间了，写了一些文章；想想写了这些东西，关键没有人评论，总感觉是自己一个人在对着自己说话，始终空落落的。因此自己就得整个评论的。于是乎，到找找国内评论的，发现好多的都要关闭了；不知道是什么原因。">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:image" content="https://i.imgur.com/Xb6JR06.png">
+<meta property="og:updated_time" content="2019-11-13T14:11:28.289Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="为你博客添加disqus评论系统">
+<meta name="twitter:description" content="前言博客做了有一段时间了，写了一些文章；想想写了这些东西，关键没有人评论，总感觉是自己一个人在对着自己说话，始终空落落的。因此自己就得整个评论的。于是乎，到找找国内评论的，发现好多的都要关闭了；不知道是什么原因。">
+<meta name="twitter:image" content="https://i.imgur.com/Xb6JR06.png">
+    
+
+    
+        <link rel="alternate" href="/atom.xml" title="23.9K | Vineo" type="application/atom+xml">
+    
+
+    
+        <link rel="icon" href="/images/favicon.ico">
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/titillium-web/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+        <script type="text/javascript">
+(function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-128971496-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+    
+    
+
+
+</head>
+</html>
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                        <h2 class="subtitle-wrap">
+                            <p class="subtitle">生活不止眼前的苟且，还有诗和远方的田野</p>
+                        </h2>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">Home</a>
+                                </li>
+                            
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/后端/">后端</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/学习/">学习</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/笔记/">笔记</a></li></ul>
+                                    
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/about">About</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    <a class="page-title-link" href="/categories/笔记/">笔记</a>
+    </h1>
+</div>
+
+                        <div class="main-body-content">
+                            <article id="post-config-disqus" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        为你博客添加disqus评论系统
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+        <a href="/config-disqus.html" class="article-date">
+            <time datetime="2018-10-31T00:00:00.000Z" itemprop="datePublished">2018-10-31</time>
+        </a>
+    </div>
+
+		
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/disqus/">disqus</a>
+    </div>
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <h2><span id="前言">前言</span></h2><p>博客做了有一段时间了，写了一些文章；想想写了这些东西，关键没有人评论，总感觉是自己一个人在对着自己说话，始终空落落的。因此自己就得整个评论的。<br><br>于是乎，到找找国内评论的，发现好多的都要关闭了；不知道是什么原因。<br></p>
+<a id="more"></a>
+
+<p>因此自己搭了一个梯子去国外网站去看看。发现了一个新大陆<a href="https://disqus.com/" target="_blank" rel="noopener"><strong>disqus</strong></a></p>
+<h2><span id="开始">开始</span></h2><p>1.任何网站都的从注册开始，这个网站也是这样的。</p>
+<ul>
+<li>注册，如图(记得自己弄梯子)：<br><img src="https://upload.cc/i1/2018/10/31/5edycj.png" alt="5edycj.png"><br><img src="https://upload.cc/i1/2018/10/31/Zo2j6E.png" alt="Zo2j6E.png"></li>
+<li>登录完成之后，他会显示一下页面，我们点击箭头所指方向<br><img src="https://upload.cc/i1/2018/10/31/8PblyB.png" alt="8PblyB.png"></li>
+<li>进入之后，输入一些信息,然后点击 <strong>create site</strong><br><img src="https://upload.cc/i1/2018/10/31/OgobK7.png" alt="OgobK7.png"></li>
+<li>它会询问你，一些服务资费，这里我们选择基础的，也就是免费。（当然土豪可以忽略）<br><img src="https://upload.cc/i1/2018/10/31/sU0gme.png" alt="sU0gme.png"></li>
+<li>由于我的博客是 <strong>jekyll</strong> 所以这里我选择 jekyll<br><img src="https://upload.cc/i1/2018/10/31/OeWyma.png" alt="OeWyma.png"></li>
+<li>我们配置一下 <strong>disqus</strong> 一些配置，然后点击 <strong>complete Setup</strong><br><img src="https://upload.cc/i1/2018/10/31/MPhAF9.png" alt="MPhAF9.png"></li>
+<li>至此我们流程已经50%了，接下<br><img src="https://upload.cc/i1/2018/10/31/AFKhWw.png" alt="AFKhWw.png"></li>
+<li>我们选择下要配置的网页<br><img src="https://upload.cc/i1/2018/10/31/fIzxoc.png" alt="fIzxoc.png"></li>
+<li>最后我们就可以看到一个关键点 <strong>shortname</strong>,然后点击保存<br><img src="https://upload.cc/i1/2018/10/31/f8PpaD.png" alt="f8PpaD.png"></li>
+</ul>
+<p>2.上面的几步只是注册一些东西，我们接下来还要集成到我们自己博客中。</p>
+<ul>
+<li>一般在你的博客的文章下方下方复制这段代码<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"disqus_thread"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="actionscript"><span class="keyword">var</span> disqus_config = <span class="function"><span class="keyword">function</span> <span class="params">()</span> </span>&#123;</span></span><br><span class="line"><span class="actionscript">    <span class="keyword">this</span>.page.url = <span class="string">'&#123;&#123; page.url | absolute_url &#125;&#125;'</span>;</span></span><br><span class="line"><span class="actionscript">    <span class="keyword">this</span>.page.identifier = <span class="string">'&#123;&#123; page.url | absolute_url &#125;&#125;'</span>;</span></span><br><span class="line">&#125;;</span><br><span class="line"><span class="actionscript">(<span class="function"><span class="keyword">function</span> <span class="params">()</span> </span>&#123;</span></span><br><span class="line"><span class="javascript">    <span class="keyword">var</span> d = <span class="built_in">document</span>, s = d.createElement(<span class="string">'script'</span>);</span></span><br><span class="line"><span class="handlebars"><span class="xml">    s.src = 'https://</span><span class="template-variable">&#123;&#123; page.url &#125;&#125;</span><span class="xml">.disqus.com/embed.js";</span></span></span><br><span class="line"><span class="javascript">    s.setAttribute(<span class="string">'data-timestamp'</span>, +<span class="keyword">new</span> <span class="built_in">Date</span>());</span></span><br><span class="line">    (d.head || d.body).appendChild(s);</span><br><span class="line"> &#125;)();</span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">noscript</span>&gt;</span>Please enable JavaScript to view the comments.<span class="tag">&lt;/<span class="name">noscript</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h2><span id="最终效果">最终效果</span></h2><p><img src="https://upload.cc/i1/2018/10/31/ASYXa8.png" alt="ASYXa8.png"></p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="https://vineo.cn/config-disqus.html" data-id="ck2xd5f68000nfmhmroo9wldj" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "author": {
+            "@type": "Person",
+            "name": "23.9K"
+        },
+        "headline": "为你博客添加disqus评论系统",
+        "image": "https://vineo.cnhttps://i.imgur.com/Xb6JR06.png",
+        "keywords": "disqus",
+        "genre": "笔记",
+        "datePublished": "2018-10-31",
+        "dateCreated": "2018-10-31",
+        "dateModified": "2019-11-13",
+        "url": "https://vineo.cn/config-disqus.html",
+        "description": "前言博客做了有一段时间了，写了一些文章；想想写了这些东西，关键没有人评论，总感觉是自己一个人在对着自己说话，始终空落落的。因此自己就得整个评论的。于是乎，到找找国内评论的，发现好多的都要关闭了；不知道是什么原因。"
+        "wordCount": 178
+    }
+</script>
+
+</article>
+
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
+    </section>
+
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>follow:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/yy921010" target="_blank" rel="noopener">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/atom.xml" target="_blank" rel="noopener">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/python-learn4.html" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">newer</strong>
+        <p class="article-nav-title">
+        
+            python 学习(四)
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/python-learn3.html" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">python 学习(三)</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+<div class="widget-wrap widget-list">
+    <h3 class="widget-title">Catalog</h3>
+    <div class="widget">
+        <div id="toc" class="toc-article">
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#null"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#null"><span class="toc-number">2.</span> <span class="toc-text">开始</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#null"><span class="toc-number">3.</span> <span class="toc-text">最终效果</span></a></li></ol>
+        </div>
+    </div>
+</div>
+
+
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">recents</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/how-to-auto-publish-blog.html" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://imgur.com/XZMk3Po.png)" alt="通过 github action 自动发布博客" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/笔记/">笔记</a></p>
+                            <p class="item-title"><a href="/how-to-auto-publish-blog.html" class="title">通过 github action 自动发布博客</a></p>
+                            <p class="item-date"><time datetime="2019-11-13T22:09:22.000Z" itemprop="datePublished">2019-11-13</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/how-to-call-javascript.html" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/7GlFSnQ.jpg)" alt="javascript 执行机制流程" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/笔记/">笔记</a></p>
+                            <p class="item-title"><a href="/how-to-call-javascript.html" class="title">javascript 执行机制流程</a></p>
+                            <p class="item-date"><time datetime="2019-07-13T14:41:56.000Z" itemprop="datePublished">2019-07-13</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/promise-summary.html" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/BUxRT67.jpg)" alt="promise 冷知识" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/笔记/">笔记</a></p>
+                            <p class="item-title"><a href="/promise-summary.html" class="title">promise 冷知识</a></p>
+                            <p class="item-date"><time datetime="2019-07-02T23:28:59.000Z" itemprop="datePublished">2019-07-02</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/install-mongodb-window.html" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/hKisSVx.jpg)" alt="window 操作系统，安装 mongodb.zip 包" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/笔记/">笔记</a></p>
+                            <p class="item-title"><a href="/install-mongodb-window.html" class="title">window 操作系统，安装 mongodb.zip 包</a></p>
+                            <p class="item-date"><time datetime="2018-12-13T22:06:05.000Z" itemprop="datePublished">2018-12-13</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/how-to-build-lib-ng.html" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/FgnSK76.jpg)" alt="如何为你的 angular app构建一个第三方库" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/笔记/">笔记</a></p>
+                            <p class="item-title"><a href="/how-to-build-lib-ng.html" class="title">如何为你的 angular app构建一个第三方库</a></p>
+                            <p class="item-date"><time datetime="2018-11-21T00:10:03.000Z" itemprop="datePublished">2018-11-21</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">categories</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/后端/">后端</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/学习/">学习</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/笔记/">笔记</a><span class="category-list-count">9</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">十一月 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/">七月 2019</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">十二月 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">十一月 2018</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">十月 2018</a><span class="archive-list-count">8</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">tags</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Git/">Git</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Intellij-IDEA/">Intellij-IDEA</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JAVA/">JAVA</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JDK1-8/">JDK1.8</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PYTHON/">PYTHON</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/angular/">angular</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/disqus/">disqus</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/javascript/">javascript</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mongodb/">mongodb</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/npm/">npm</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/promise/">promise</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/properties/">properties</a><span class="tag-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">tag cloud</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/Intellij-IDEA/" style="font-size: 10px;">Intellij-IDEA</a> <a href="/tags/JAVA/" style="font-size: 10px;">JAVA</a> <a href="/tags/JDK1-8/" style="font-size: 10px;">JDK1.8</a> <a href="/tags/PYTHON/" style="font-size: 20px;">PYTHON</a> <a href="/tags/angular/" style="font-size: 10px;">angular</a> <a href="/tags/disqus/" style="font-size: 10px;">disqus</a> <a href="/tags/javascript/" style="font-size: 15px;">javascript</a> <a href="/tags/mongodb/" style="font-size: 10px;">mongodb</a> <a href="/tags/npm/" style="font-size: 10px;">npm</a> <a href="/tags/promise/" style="font-size: 10px;">promise</a> <a href="/tags/properties/" style="font-size: 10px;">properties</a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/ppoffice/hexo-theme-icarus">Theme</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://charlesy.gitee.io/blog_hexo/">国内地址</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.middlewest.cn/">Cosy 的博客</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2019 23.9K</p>
+                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+            </div>
+            <div class="footer-plugins">
+              
+    
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+        
+    
+    <script>
+    var disqus_shortname = 'https-vineo-cn';
+    
+    
+    var disqus_url = 'https://vineo.cn/config-disqus.html';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>

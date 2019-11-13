@@ -1,0 +1,2 @@
+Sitemap: https://vineo.cn/sitemap.xml
+Sitemap: https://vineo.cn/baidusitemap.xml

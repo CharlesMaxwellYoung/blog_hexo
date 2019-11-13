@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="utf-8">
+
+    
+
+    
+    <title>python 学习(四) | 23.9K | Vineo</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="PYTHON">
+    
+    <meta name="description" content="所有序列操作对于字符串是同样适用，我们可以理解为将字符串里面的字符看成是序列的一个一个的元素。">
+<meta name="keywords" content="PYTHON">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python 学习(四)">
+<meta property="og:url" content="https://vineo.cn/python-learn4.html">
+<meta property="og:site_name" content="23.9K | Vineo">
+<meta property="og:description" content="所有序列操作对于字符串是同样适用，我们可以理解为将字符串里面的字符看成是序列的一个一个的元素。">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:image" content="https://i.imgur.com/JjIQyzR.png">
+<meta property="og:updated_time" content="2019-11-13T14:11:28.289Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="python 学习(四)">
+<meta name="twitter:description" content="所有序列操作对于字符串是同样适用，我们可以理解为将字符串里面的字符看成是序列的一个一个的元素。">
+<meta name="twitter:image" content="https://i.imgur.com/JjIQyzR.png">
+    
+
+    
+        <link rel="alternate" href="/atom.xml" title="23.9K | Vineo" type="application/atom+xml">
+    
+
+    
+        <link rel="icon" href="/images/favicon.ico">
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/titillium-web/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+        <script type="text/javascript">
+(function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-128971496-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+    
+    
+
+
+</head>
+</html>
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                        <h2 class="subtitle-wrap">
+                            <p class="subtitle">生活不止眼前的苟且，还有诗和远方的田野</p>
+                        </h2>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">Home</a>
+                                </li>
+                            
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/后端/">后端</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/学习/">学习</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/笔记/">笔记</a></li></ul>
+                                    
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/about">About</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    <a class="page-title-link" href="/categories/学习/">学习</a>
+    </h1>
+</div>
+
+                        <div class="main-body-content">
+                            <article id="post-python-learn4" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        python 学习(四)
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+        <a href="/python-learn4.html" class="article-date">
+            <time datetime="2018-11-06T23:40:33.000Z" itemprop="datePublished">2018-11-06</time>
+        </a>
+    </div>
+
+		
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/PYTHON/">PYTHON</a>
+    </div>
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <blockquote>
+<p>所有序列操作对于字符串是同样适用，我们可以理解为将字符串里面的字符看成是序列的一个一个的元素。</p>
+</blockquote>
+<a id="more"></a>
+<h1><span id="格式化字符串">格式化字符串</span></h1><p>字符串中最核心的功能就是格式化操作。</p>
+<h2><span id="字符串格式化基础">字符串格式化基础</span></h2><ul>
+<li><p>字符串格式话相当于字符串模板。通俗的讲就是，字符串中一段是固定而另一端是动态变化的。</p>
+</li>
+<li><p>那么固定的模块，我们称之为模板；动态的可以用<code>%</code>来替换。</p>
+<p>例如：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">formatStr = <span class="string">'hello %s.this is %s world'</span></span><br><span class="line">values = (<span class="string">'sisi'</span>, <span class="string">'sisi'</span>)</span><br><span class="line">print(formatStr % values)</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt;hello sisi.this <span class="keyword">is</span> dasdad world</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>字符串模板指定格式化参数时，要使用<code>%</code>,指定字符串格式化参数值要使用元组。</p>
+</blockquote>
+</li>
+<li><p>使用<code>%f</code>来表示浮点类型的格式化参数</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 定义格式化模板</span></span><br><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> pi</span><br><span class="line"></span><br><span class="line">formatStr = <span class="string">'PI是圆周率，%.4f -----&gt;保留小数点%d位'</span></span><br><span class="line">values = (pi, <span class="number">4</span>)</span><br><span class="line"></span><br><span class="line">print(formatStr % values)</span><br><span class="line">&gt;&gt;&gt; PI是圆周率，3.1416 -----&gt;保留小数点4位</span><br><span class="line"></span><br><span class="line">formatStr1 = <span class="string">'%s的成功率%d%%'</span></span><br><span class="line">values1 = (<span class="string">'思思'</span>, <span class="number">100</span>)</span><br><span class="line">print(formatStr1 % values1)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>思思的成功率<span class="number">100</span>%</span><br><span class="line"></span><br><span class="line">values2 = (<span class="string">'思思'</span>)</span><br><span class="line">print(formatStr1 % values2)</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>参数值的数量要和格式化参数不匹配，error</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>记得参数值的数量要和格式化参数要匹配，不然会报错</p>
+</blockquote>
+</li>
+</ul>
+<h2><span id="模板字符串">模板字符串</span></h2><blockquote>
+<p>在<strong>String</strong>模块中提供了一个用于格式化的字符串<strong>template</strong>的类，用来处理同一个值替换所有的相同格式化参数。</p>
+</blockquote>
+<ul>
+<li><p><strong>template</strong>格式化参数，用<strong>$</strong>符号来开头，后面接着格式化名称。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> string <span class="keyword">import</span> Template</span><br><span class="line"></span><br><span class="line">a = Template(<span class="string">'$ccc是我最喜欢的$ccc还是$ccc'</span>)</span><br><span class="line">print(a.substitute(ccc=<span class="string">"python"</span>))</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>python是我最喜欢的python还是python</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>当格式化参数是一个字符串一部分时，需要用<code>{}</code>来区分。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">b = Template(<span class="string">'$&#123;abv&#125;RING'</span>)</span><br><span class="line">print(b.substitute(abv=<span class="string">'sub'</span>))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>subRING</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h2><span id="字符串中format方法">字符串中<code>format</code>方法</span></h2><ul>
+<li><p>使用一对<code>{}</code>,而且支持按顺序指定格式化参数值和关键字格式化参数</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="string">"&#123;&#125; &#123;&#125; &#123;&#125;"</span>.format(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">1</span> <span class="number">2</span> <span class="number">3</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>可以命名格式化，可以在一对大括号中指定一个名称</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="string">"&#123;a&#125; &#123;b&#125; &#123;c&#125;"</span>.format(a=<span class="number">1</span>, b=<span class="number">2</span>, c=<span class="number">3</span>))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">1</span> <span class="number">2</span> <span class="number">3</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>混合顺序格式化参数和关键字格式化参数两种</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">a3 = <span class="string">"today is &#123;week&#125;,&#123;&#125;, the&#123;&#125; temperature is &#123;degree&#125; degrees"</span></span><br><span class="line"><span class="comment"># 这个方式是错的</span></span><br><span class="line">a3.format(week=<span class="string">"31231"</span>, <span class="string">"dasdas"</span>, <span class="number">1231231</span>, degree=<span class="string">"dadsa"</span>)</span><br><span class="line"><span class="comment"># 前面应该是按照书讯传递格式化参数值，后面是关键字格式化参数值，顺序是不能调换</span></span><br><span class="line">print(a3.format(<span class="string">"dadasa"</span>, <span class="number">1231312</span>, week=<span class="string">"sunday"</span>, degree=<span class="number">22</span>))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>today <span class="keyword">is</span> sunday,dadasa, the <span class="number">1231312</span> temperature <span class="keyword">is</span> <span class="number">22</span> degrees</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>为顺序格式化参数指定了从format方法获取参数值的顺序，<code>{1}</code>表示从 format 方法的第2个参数取值<code>{0}</code>表示从 format 方法的第1个参数取值</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a4 = <span class="string">"today is &#123;week&#125;,&#123;1&#125;, the &#123;0&#125; temperature is &#123;degree&#125; degrees"</span></span><br><span class="line">print(a4.format(<span class="string">"dadasa"</span>, <span class="number">1231312</span>, week=<span class="string">"sunday"</span>, degree=<span class="number">22</span>))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>today <span class="keyword">is</span> sunday,<span class="number">1231312</span>, the dadasa temperature <span class="keyword">is</span> <span class="number">22</span> degrees</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>列表格式化</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">fullname = [<span class="string">"bill"</span>, <span class="string">"gates"</span>]</span><br><span class="line"><span class="comment"># </span></span><br><span class="line">print(<span class="string">"Mr &#123;name[0]&#125;"</span>.format(name=fullname))</span><br><span class="line">&gt;&gt;&gt;Mr bill</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>导入math模块,访问 math 模块中的<code>__name__</code>变量来获取模块的名字，访问 math中的PI的变量获取PI的值</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">s5 = <span class="string">"the &#123;mod.__name__&#125; module defines the value &#123;mod.pi&#125; for pi"</span></span><br><span class="line">print(s5.format(mod=math))</span><br><span class="line">&gt;&gt;&gt;the math module defines the value <span class="number">3.141592653589793</span> <span class="keyword">for</span> pi</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>更进异步的控制字符串格式化参数</p>
+  <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="string">"&#123;first!s&#125;   &#123;first!r&#125;  &#123;first!a&#125;"</span>.format(first=<span class="string">"中文"</span>))</span><br><span class="line">&gt;&gt;&gt;中文   <span class="string">'中文'</span>  <span class="string">'\u4e2d\u6587'</span></span><br><span class="line"></span><br><span class="line">a6 = <span class="string">"&#123;number1:E&#125;"</span></span><br><span class="line">print(a6.format(number1=<span class="number">1234567789</span>))</span><br><span class="line">&gt;&gt;&gt;<span class="number">1.234568E+09</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">类型符</th>
+<th align="center">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">a</td>
+<td align="center">将字符串按Unicode编码输出</td>
+</tr>
+<tr>
+<td align="center">b</td>
+<td align="center">将一个整数格式化为一个二进制书</td>
+</tr>
+<tr>
+<td align="center">c</td>
+<td align="center">将一个整数解释称ASCII</td>
+</tr>
+<tr>
+<td align="center">d</td>
+<td align="center">将整数格式化十进制的整数</td>
+</tr>
+<tr>
+<td align="center">e</td>
+<td align="center">将十进制格式化科学计数法，用e表示</td>
+</tr>
+<tr>
+<td align="center">E</td>
+<td align="center">将十进制格式化科学计数法，用E表示</td>
+</tr>
+<tr>
+<td align="center">f</td>
+<td align="center">将十进制格式化格式化浮点数。会将特殊值（nan和inf）转换为小写</td>
+</tr>
+<tr>
+<td align="center">F</td>
+<td align="center">将十进制格式化格式化浮点数。会将特殊值（nan和inf）转换为大写</td>
+</tr>
+<tr>
+<td align="center">g</td>
+<td align="center">会根据整数值的位数，在浮点数和科学计数法之间，在整数为超过6位时，与e相同否则相同</td>
+</tr>
+<tr>
+<td align="center">E</td>
+<td align="center">会根据整数值的位数，在浮点数和科学计数法之间，在整数为超过6位时，与E相同否则相同</td>
+</tr>
+<tr>
+<td align="center">o</td>
+<td align="center">将一个整数格式化为八进制</td>
+</tr>
+<tr>
+<td align="center">s</td>
+<td align="center">按照原样输出</td>
+</tr>
+<tr>
+<td align="center">x</td>
+<td align="center">将一个整数格式化为十六进制，字母小写</td>
+</tr>
+<tr>
+<td align="center">X</td>
+<td align="center">将一个整数格式化为十六进制，字母大写</td>
+</tr>
+<tr>
+<td align="center">%</td>
+<td align="center">将数值格式化为百分比形式</td>
+</tr>
+</tbody></table>
+<p>其中<strong>inf</strong> 表示无穷大，<strong>NAN</strong>可解释为非数字。</p>
+<h2><span id="字段宽度精度和千位分隔符">字段宽度，精度和千位分隔符</span></h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#显示宽度为12，会在52的左侧会有10空格</span></span><br><span class="line">print(<span class="string">"&#123;num:12&#125;"</span>.format(num=<span class="string">"52"</span>))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>         <span class="number">52</span></span><br><span class="line"><span class="comment">#52右侧显示6个字符</span></span><br><span class="line">print(<span class="string">"&#123;num1:12&#125;Grate"</span>.format(num1=<span class="string">"52"</span>))</span><br><span class="line">&gt;&gt;&gt;<span class="number">52</span>          Grate</span><br><span class="line"><span class="comment">#保留pi的小数点后面两位</span></span><br><span class="line">print(<span class="string">"float number:&#123;pi:.2f&#125;"</span>.format(pi=pi))</span><br><span class="line">&gt;&gt;&gt;float number:<span class="number">3.14</span></span><br><span class="line"><span class="comment">#将精度应用与字符串，截取前五位字符</span></span><br><span class="line">print(<span class="string">"&#123;:.5&#125;"</span>.format(<span class="string">"hello world"</span>))</span><br><span class="line">&gt;&gt;&gt;hello</span><br><span class="line"><span class="comment">#用千分位分隔符输出googol</span></span><br><span class="line">print(<span class="string">"one googol is &#123;:,&#125;"</span>.format(<span class="number">10</span> ** <span class="number">1000</span>))</span><br><span class="line">&gt;&gt;&gt;one googol <span class="keyword">is</span> <span class="number">10</span>,<span class="number">000</span>,<span class="number">000</span>,<span class="number">000</span>,<span class="number">000</span>,<span class="number">000</span>,<span class="number">000</span>,<span class="number">000</span>,<span class="number">000</span>,<span class="number">000</span>,<span class="number">000</span>,<span class="number">000</span>,<span class="number">000</span>,<span class="number">000</span>,<span class="number">000</span>,<span class="number">000</span>,<span class="number">000</span>,<span class="number">000.</span>..</span><br></pre></td></tr></table></figure>
+
+<h1><span id="字符串方法">字符串方法</span></h1><p>常用的字符串方法有 <code>center find join split lower upper capwords replace</code> 等</p>
+<ul>
+<li><p>center方法</p>
+<blockquote>
+<p>将字符串进行居中，center方法有两个参数。第一个参数是数字类型，表示字符串显示的宽度，第二可选的，用来添加填充的符号</p>
+</blockquote>
+  <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="string">"&lt;"</span> + <span class="string">"hello"</span>.center(<span class="number">30</span>) + <span class="string">"&gt;"</span>)</span><br><span class="line">print(<span class="string">"&lt;&#123;:^30&#125;&gt;"</span>.format(<span class="string">"hello"</span>))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>&lt;            hello             &gt;</span><br><span class="line">print(<span class="string">"&lt;"</span> + <span class="string">"hello"</span>.center(<span class="number">30</span>, <span class="string">"&amp;"</span>) + <span class="string">"&gt;"</span>)</span><br><span class="line">print(<span class="string">"&lt;&#123;:&amp;^30&#125;&gt;"</span>.format(<span class="string">"hello"</span>))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>&lt;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;hello&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>find 方法</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">s = <span class="string">"hello world"</span></span><br><span class="line">print(s.find(<span class="string">"w"</span>))</span><br><span class="line">&gt;&gt;&gt;<span class="number">6</span> <span class="comment">#第一次出现的“w”的位置，如果没有找到放回-1</span></span><br><span class="line"></span><br><span class="line">s = <span class="string">"hello world"</span></span><br><span class="line">print(s.find(<span class="string">"o"</span>, <span class="number">5</span>))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">7</span> <span class="comment">#指定开始的查找的位置</span></span><br><span class="line"></span><br><span class="line">s = <span class="string">"hello world"</span></span><br><span class="line">print(s.find(<span class="string">"l"</span>, <span class="number">5</span>, <span class="number">9</span>))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">-1</span> <span class="comment">#指定结束位置，第8个位置</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>join操作方式和<code>js</code>操作方式相似（注意一点就是，序列元素必须是字符串类型）</p>
+</li>
+<li><p>split 和join互斥</p>
+</li>
+<li><p>lower 将字符串小写，upper大写,capwords首字母大写</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">s = <span class="string">"hello world"</span></span><br><span class="line">print(s.lower())</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>hello world</span><br><span class="line">print(s.upper())</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>HELLO WORLD</span><br><span class="line"></span><br><span class="line">print(string.capwords(s))</span><br><span class="line">&gt;&gt;&gt;Hello World</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>replace 方法，将字符串替换成另外一个字符串。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="string">"this is a car"</span>.replace(<span class="string">"car"</span>, <span class="string">"bike"</span>))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>this <span class="keyword">is</span> a bike</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>strip方法，截取字符串的前后空格。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="string">"    geeodedasdasd.dasdasd"</span>.strip())</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>geeodedasdasd.dasdasd</span><br><span class="line"><span class="comment"># 指定截取字符串前后字符的空格、* &amp;</span></span><br><span class="line">print(<span class="string">"*** &amp;* Hello &amp; *World **&amp;&amp;"</span>.strip(<span class="string">" *&amp;"</span>))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>Hello &amp; *World</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>translate方法</p>
+<blockquote>
+<p>translate 方法和 replace 方法类似，都是用来替换字符串中的某一部分，不同点在于translate 用来替换单个字符，而replace方法可以用来一个字符串，效率上translate ，更高。</p>
+</blockquote>
+</li>
+</ul>
+<h1><span id="总结">总结</span></h1><p>了解字符串的格式化和字符串方法。</p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="https://vineo.cn/python-learn4.html" data-id="ck2xd5f8a001tfmhmsroeudsc" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "author": {
+            "@type": "Person",
+            "name": "23.9K"
+        },
+        "headline": "python 学习(四)",
+        "image": "https://vineo.cnhttps://i.imgur.com/JjIQyzR.png",
+        "keywords": "PYTHON",
+        "genre": "学习",
+        "datePublished": "2018-11-06",
+        "dateCreated": "2018-11-06",
+        "dateModified": "2019-11-13",
+        "url": "https://vineo.cn/python-learn4.html",
+        "description": "
+所有序列操作对于字符串是同样适用，我们可以理解为将字符串里面的字符看成是序列的一个一个的元素。
+"
+        "wordCount": 778
+    }
+</script>
+
+</article>
+
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
+    </section>
+
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>follow:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/yy921010" target="_blank" rel="noopener">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/atom.xml" target="_blank" rel="noopener">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/python-learn5.html" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">newer</strong>
+        <p class="article-nav-title">
+        
+            python 学习(五)
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/config-disqus.html" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">为你博客添加disqus评论系统</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+<div class="widget-wrap widget-list">
+    <h3 class="widget-title">Catalog</h3>
+    <div class="widget">
+        <div id="toc" class="toc-article">
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#null"><span class="toc-number">1.</span> <span class="toc-text">格式化字符串</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#null"><span class="toc-number">1.1.</span> <span class="toc-text">字符串格式化基础</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#null"><span class="toc-number">1.2.</span> <span class="toc-text">模板字符串</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#null"><span class="toc-number">1.3.</span> <span class="toc-text">字符串中format方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#null"><span class="toc-number">1.4.</span> <span class="toc-text">字段宽度，精度和千位分隔符</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#null"><span class="toc-number">2.</span> <span class="toc-text">字符串方法</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#null"><span class="toc-number">3.</span> <span class="toc-text">总结</span></a></li></ol>
+        </div>
+    </div>
+</div>
+
+
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">recents</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/how-to-auto-publish-blog.html" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://imgur.com/XZMk3Po.png)" alt="通过 github action 自动发布博客" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/笔记/">笔记</a></p>
+                            <p class="item-title"><a href="/how-to-auto-publish-blog.html" class="title">通过 github action 自动发布博客</a></p>
+                            <p class="item-date"><time datetime="2019-11-13T22:09:22.000Z" itemprop="datePublished">2019-11-13</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/how-to-call-javascript.html" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/7GlFSnQ.jpg)" alt="javascript 执行机制流程" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/笔记/">笔记</a></p>
+                            <p class="item-title"><a href="/how-to-call-javascript.html" class="title">javascript 执行机制流程</a></p>
+                            <p class="item-date"><time datetime="2019-07-13T14:41:56.000Z" itemprop="datePublished">2019-07-13</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/promise-summary.html" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/BUxRT67.jpg)" alt="promise 冷知识" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/笔记/">笔记</a></p>
+                            <p class="item-title"><a href="/promise-summary.html" class="title">promise 冷知识</a></p>
+                            <p class="item-date"><time datetime="2019-07-02T23:28:59.000Z" itemprop="datePublished">2019-07-02</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/install-mongodb-window.html" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/hKisSVx.jpg)" alt="window 操作系统，安装 mongodb.zip 包" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/笔记/">笔记</a></p>
+                            <p class="item-title"><a href="/install-mongodb-window.html" class="title">window 操作系统，安装 mongodb.zip 包</a></p>
+                            <p class="item-date"><time datetime="2018-12-13T22:06:05.000Z" itemprop="datePublished">2018-12-13</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/how-to-build-lib-ng.html" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/FgnSK76.jpg)" alt="如何为你的 angular app构建一个第三方库" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/笔记/">笔记</a></p>
+                            <p class="item-title"><a href="/how-to-build-lib-ng.html" class="title">如何为你的 angular app构建一个第三方库</a></p>
+                            <p class="item-date"><time datetime="2018-11-21T00:10:03.000Z" itemprop="datePublished">2018-11-21</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">categories</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/后端/">后端</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/学习/">学习</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/笔记/">笔记</a><span class="category-list-count">9</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">十一月 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/">七月 2019</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">十二月 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">十一月 2018</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">十月 2018</a><span class="archive-list-count">8</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">tags</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Git/">Git</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Intellij-IDEA/">Intellij-IDEA</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JAVA/">JAVA</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JDK1-8/">JDK1.8</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PYTHON/">PYTHON</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/angular/">angular</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/disqus/">disqus</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/javascript/">javascript</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mongodb/">mongodb</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/npm/">npm</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/promise/">promise</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/properties/">properties</a><span class="tag-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">tag cloud</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/Intellij-IDEA/" style="font-size: 10px;">Intellij-IDEA</a> <a href="/tags/JAVA/" style="font-size: 10px;">JAVA</a> <a href="/tags/JDK1-8/" style="font-size: 10px;">JDK1.8</a> <a href="/tags/PYTHON/" style="font-size: 20px;">PYTHON</a> <a href="/tags/angular/" style="font-size: 10px;">angular</a> <a href="/tags/disqus/" style="font-size: 10px;">disqus</a> <a href="/tags/javascript/" style="font-size: 15px;">javascript</a> <a href="/tags/mongodb/" style="font-size: 10px;">mongodb</a> <a href="/tags/npm/" style="font-size: 10px;">npm</a> <a href="/tags/promise/" style="font-size: 10px;">promise</a> <a href="/tags/properties/" style="font-size: 10px;">properties</a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/ppoffice/hexo-theme-icarus">Theme</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://charlesy.gitee.io/blog_hexo/">国内地址</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.middlewest.cn/">Cosy 的博客</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2019 23.9K</p>
+                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+            </div>
+            <div class="footer-plugins">
+              
+    
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+        
+    
+    <script>
+    var disqus_shortname = 'https-vineo-cn';
+    
+    
+    var disqus_url = 'https://vineo.cn/python-learn4.html';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>
