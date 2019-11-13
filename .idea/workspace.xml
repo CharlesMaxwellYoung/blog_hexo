@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e08c62b-90c0-468c-8031-e6a3c34945f0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/blogCI.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/blogCI.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_drafts/how-to-auto-publish-blog.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +44,11 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1TTKeAYoYR3Ml0uVYsHJmYRLJ8p" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="link&#9;FILE&#9;file://E:/webStromWorkSpace/blog/blog-hexo/themes/icarus/layout/widget/links.ejs&#10;links&#9;FILE&#9;file://E:/webStromWorkSpace/blog/blog-hexo/themes/icarus/includes/specs/icon_link.spec.js&#10;Analytics&#9;FILE&#9;file://E:/webStromWorkSpace/blog/blog-hexo/themes/icarus/layout/plugin/google-analytics.ejs&#10;analytics&#9;FILE&#9;file://E:/webStromWorkSpace/blog/blog-hexo/themes/icarus/layout/plugin/baidu-analytics.ejs&#10;ava&#9;null&#9;null&#10;disqus&#9;FILE&#9;file://E:/webStromWorkSpace/blog/blog-hexo/themes/icarus/layout/comment/disqus.ejs&#10;livere&#9;FILE&#9;file://E:/webStromWorkSpace/blog/blog-hexo/themes/icarus/layout/comment/livere.ejs&#10;duoshuo&#9;FILE&#9;file://E:/webStromWorkSpace/blog/blog-hexo/themes/hueman/layout/comment/duoshuo.ejs" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -172,7 +177,10 @@
       <workItem from="1560868896151" duration="4920000" />
       <workItem from="1561262902236" duration="90000" />
       <workItem from="1561471746580" duration="8128000" />
-      <workItem from="1573478740590" duration="4819000" />
+      <workItem from="1573478740590" duration="5021000" />
+      <workItem from="1573484035343" duration="41000" />
+      <workItem from="1573569183667" duration="1317000" />
+      <workItem from="1573651717586" duration="1327000" />
     </task>
     <task id="LOCAL-00001" summary="博客最终主题切换">
       <created>1541694330088</created>
@@ -454,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573483196858</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="去除travis 配置，修改为github action">
+      <created>1573483664909</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1573483664910</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,13 +480,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="博客最终主题切换" />
     <MESSAGE value="ci 构建" />
     <MESSAGE value="python5 学习临时保存" />
